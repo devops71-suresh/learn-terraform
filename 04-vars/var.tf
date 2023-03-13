@@ -4,3 +4,9 @@ variable "my_var" {
 output "my_var" {
   value = var.my_var
 }
+
+variable "sample2" {}
+
+output "sample2" {
+  value = var.sample2
+}

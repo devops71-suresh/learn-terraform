@@ -21,7 +21,7 @@ variable "instances" {
          name = "catalogue"
          type = "t3.micro"
   }
-    cart      ="cart"
+    cart    =  {
          name ="cart"
          type ="t3.small"
   }

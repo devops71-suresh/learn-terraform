@@ -18,12 +18,13 @@ resource "aws_instance" "instances" {
 variable "instances" {
   default = {
     catalogue = {
-         name = "catalogue"
-         type = "t3.micro"
-  }
-    cart    =  {
-         name ="cart"
-         type ="t3.small"
+      name = "catalogue"
+      type = "t3.micro"
+    }
+    cart = {
+      name = "cart"
+      type = "t3.small"
+    }
   }
 }
 
